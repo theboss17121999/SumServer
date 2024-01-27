@@ -10,4 +10,8 @@ app.get("/sum", (req, res) => {
     res.send(sum.toString());
 });
 
+app.get("/", (req, res) => {
+    res.send();
+});
+
 app.listen(8080);
